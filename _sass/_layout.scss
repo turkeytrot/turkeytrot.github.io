@@ -7,7 +7,6 @@
     
 }
 
-
 /**
  * Hero
  */
@@ -23,11 +22,6 @@
     
     background-repeat: no-repeat;
 
-    background-image: url('../images/Bigstock_51341347.jpg');
-    background-position-x: 594px;
-    background-position-y: 204px;
-    background-size: 600px 600px;
-
 
     background-image: url('../images/Bigstock_4290978.jpg');
     background-position-x: 275px;
@@ -36,43 +30,54 @@
 }
 
 /**
- * Primary Header
+ * Nav
  */
 
-.primary-header {
-    position: relative;
-    height: 130px;
+.hero nav {
+    sheight: 130px;
     background-color: rgba(0,0,0,.25);
 }
 
-.primary-header nav {
-    background-color: rgba(0,0,0,.25);
-}
-
-.primary-header .callout {
-    background-color: rgba(0,0,0,.25);
-    float: right;
-    width: 250px;
+.hero nav > a {
     
 }
 
-.primary-header .callout section {
+/**
+ * Callout
+ */
+
+.hero .callout {
+    background-color: rgba(0,0,0,.25);
+    position: absolute;
+    right: 0;
+    width: 250px;   
+}
+
+.hero .callout section {
     position: relative;
     height: 80px;
 }
-.primary-header .callout section:nth-child(1) {
+.hero .callout section:nth-child(1) {
     background-color: red;
 }
-.primary-header .callout section:nth-child(2) {
+.hero .callout section:nth-child(2) {
     background-color: yellow;
 }
 
+/**
+ * Main
+ */
 
 .hero main {
     background-color: rgba(255,0,0,.25);
+    position: absolute;
+    top: 130px;
     width: 500px;
 }
 
+/**
+ * Arrow
+ */
 .hero .arrow {
     position: absolute;
     bottom: 0;
@@ -81,8 +86,6 @@
 
     width: 75px;
     height: 75px;
-    
-
 }
 
 /**
