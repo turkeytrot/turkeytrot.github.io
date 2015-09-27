@@ -1,0 +1,190 @@
+/**
+ * Layout Abstractions
+ */
+.panel > div {
+    margin: 0 auto;
+    width: 1125px;
+    
+}
+
+
+/**
+ * Hero
+ */
+
+.hero {
+    background-color: rgb(238, 255, 238);
+}
+
+.hero > div {
+    height: 700px;
+    position: relative; /* For the .intro section */    
+    background-color: rgba(0,0,0,.25);
+    
+    background-repeat: no-repeat;
+
+    background-image: url('../images/Bigstock_51341347.jpg');
+    background-position-x: 594px;
+    background-position-y: 204px;
+    background-size: 600px 600px;
+
+
+    background-image: url('../images/Bigstock_4290978.jpg');
+    background-position-x: 275px;
+    background-position-y: 210px;
+    background-size: 900px 536px;
+}
+
+/**
+ * Primary Header
+ */
+
+.primary-header {
+    position: relative;
+    height: 130px;
+    background-color: rgba(0,0,0,.25);
+}
+
+.primary-header nav {
+    background-color: rgba(0,0,0,.25);
+}
+
+.primary-header .callout {
+    background-color: rgba(0,0,0,.25);
+    float: right;
+    width: 250px;
+    
+}
+
+.primary-header .callout section {
+    position: relative;
+    height: 80px;
+}
+.primary-header .callout section:nth-child(1) {
+    background-color: red;
+}
+.primary-header .callout section:nth-child(2) {
+    background-color: yellow;
+}
+
+
+.hero main {
+    background-color: rgba(255,0,0,.25);
+    width: 500px;
+}
+
+.hero .arrow {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -40px;
+    background-color: #543E95;
+
+    width: 75px;
+    height: 75px;
+    
+
+}
+
+/**
+ * Primary Content
+ */
+
+.primary-content {
+    background-color: #993399;
+}
+
+.primary-content > div {
+    /*position: relative;*/
+    background-color: rgba(0,0,0,.25);
+    height: 210px;
+}
+
+/**
+ * Breakouts
+ */
+
+.breakouts {
+    sposition: relative;
+    stext-align: center;
+    display: flex;
+ }
+
+.breakouts .breakout {
+    flex: 1;
+    transform: translateY(-40px);
+    height: 290px;
+    background-color: rgba(0,0,0,.25);
+ }
+
+ .breakouts .breakout:nth-child(2){
+    swidth: 33.3%;
+    margin: 0px 20px;
+ }
+
+
+
+
+/**
+ * Sponsor Content
+ */
+
+.sponsor-content {
+    background-color: #339999;
+}
+
+.sponsor-content > div {
+    /*position: relative;*/
+    background-color: rgba(0,0,0,.25);
+    padding-top: 90px;
+}
+
+/**
+ * Sponsor Tiles
+ */
+
+ .sponsor-tiles {
+    text-align: center;
+ }
+
+/**
+ * Map
+ */
+
+.map {
+    
+    background-color: #f3f3f3;
+}
+
+.map > div {
+    /*position: relative;*/
+    background-image: url("../images/map.png");
+    background-size: cover;
+    height: 400px;
+
+}
+
+
+
+/**
+ * Footer
+ */
+
+.footer-content {
+    background-color: #33ff33;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+.footer-content > div {
+    /*position: relative;*/
+    background-color: rgba(0,0,0,.25);
+    overflow:hidden;
+}
+
+.footer-content  .social {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin: 0px 30px
+}

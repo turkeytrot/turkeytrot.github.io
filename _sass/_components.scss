@@ -1,0 +1,120 @@
+
+/****************************************
+  Components
+*****************************************/
+
+main h1 {
+    margin-top: 0px;
+    font-size: 74px;
+    font-family: 'Rubik One', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/**
+ * Content Box
+ */
+
+.content-box {
+    color: white;
+    padding: 20px 40px ;
+}
+
+.content-box h3 {
+    margin-top: 0px;
+    font-size: 2em;
+}
+
+
+/**
+ * Sponsor Tile
+ */
+
+.sponsor-tile {
+    text-align: center;
+    display: inline-block;
+    width: 270px;
+    height: 290px;
+    vertical-align: top;
+    color: #3C6807;
+    background-color: rgba(0,0,0,.25);
+    padding-top: 55px;
+    position: relative;
+    margin: 0 10px;
+    transform: translateY(25px);
+
+}
+
+.sponsor-tile .content {
+    background-color: #E3E3E3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+
+
+}
+
+.sponsor-tile .content .left, .sponsor-tile .content .right {
+    display: inline-block;
+    margin:0;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    font-weight: 100;
+    vertical-align: middle;
+
+}
+.sponsor-tile .content .left {
+    left: 0;    
+    background-color: rgba(125, 0, 0, 0.25);   
+    width: 75%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.sponsor-tile .content .right {
+    right: 0;
+    background-color: rgba(0, 125, 0, 0.25);
+    width: 25%;
+}
+
+
+
+
+/**
+ * Frame images for Vertical alignment
+ */
+
+.frame { 
+    height: 100px;      /* set to max image height on .frame img */
+    white-space: nowrap;
+    text-align: center; 
+
+}
+.frame .helper { /*helps verticle align image*/
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.frame img {
+    vertical-align: middle;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+/*Helper for round images*/
+img.round {
+    border-radius: 50%;
+}
+
+
+.social {
+    width: 50px;
+}

@@ -1,0 +1,482 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgour",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"sass",
+				"Set Syntax: CSS"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"htmp",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"html	",
+				"Set Syntax: HTML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascr	",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 223.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/brlamore/Sites/turkeytrot.github.io/index.html",
+		"/Users/brlamore/Sites/brigsblog/_sass/_base.scss",
+		"/Users/brlamore/Sites/brigsblog/_site/css/main.css",
+		"/Users/brlamore/Sites/brigsblog/css/main.scss",
+		"/Users/brlamore/Sites/brigsblog/_layouts/default.html",
+		"/Users/brlamore/Sites/brigsblog/_includes/media.html",
+		"/Users/brlamore/Sites/brigsblog/_posts/2015-09-09-brig.md",
+		"/Users/brlamore/Sites/brigsblog/_config.yml",
+		"/Users/brlamore/Sites/brigsblog/index.html",
+		"/Users/brlamore/Sites/review.php",
+		"/Users/brlamore/src/bootcampWiki/index.md",
+		"/Users/brlamore/Sites/login.html",
+		"/Users/brlamore/Documents/jekyll",
+		"/Users/brlamore/Sites/login.php",
+		"/Users/brlamore/Sites/redApple.php",
+		"/Users/brlamore/Sites/forms/index.html",
+		"/Users/brlamore/Sites/nesoi/web/src/map.js",
+		"/Users/brlamore/Sites/nesoi/web/src/index.js",
+		"/Users/brlamore/Sites/nesoi/web/src/person.js",
+		"/Users/brlamore/Sites/patternsII.html",
+		"/Users/brlamore/Sites/sessions/index.php",
+		"/Users/brlamore/Sites/sessions/validate.php",
+		"/Users/brlamore/Sites/shoppingCart/page3.php",
+		"/Users/brlamore/Sites/shoppingCart/account.php",
+		"/Users/brlamore/Sites/shoppingCart/login.php",
+		"/Users/brlamore/Sites/shoppingCart/page2.php",
+		"/Users/brlamore/Sites/shoppingCart/untitled.php",
+		"/Users/brlamore/Sites/shoppingCart/index.html",
+		"/Users/brlamore/Sites/techgames/src/RockIT/TechgamesBundle/Model/Sponsor.php",
+		"/Users/brlamore/Sites/loops.php",
+		"/Users/brlamore/Sites/boxmodel/index.html",
+		"/Users/brlamore/Sites/functions/index.php",
+		"/Users/brlamore/Downloads/em.html",
+		"/Users/brlamore/Downloads/flex.html",
+		"/Users/brlamore/Sites/chal6.php",
+		"/Users/brlamore/Sites/forms/backend.php",
+		"/Users/brlamore/Sites/nesoi/src/index.js",
+		"/Users/brlamore/Sites/nesoi/db/exportZelda.bash",
+		"/Users/brlamore/Sites/nesoi/db/test.js",
+		"/Users/brlamore/Sites/nesoi/db/db.js",
+		"/Users/brlamore/Sites/nesoi/web/styles.css",
+		"/Users/brlamore/Sites/nesoi/zelda.json",
+		"/Users/brlamore/Downloads/boxmodel.html",
+		"/Users/brlamore/Sites/functions.php",
+		"/Users/brlamore/Sites/nesoi/web/dist/bundle.js",
+		"/Users/brlamore/Sites/nesoi/web/index.html",
+		"/Users/brlamore/Sites/nesoi/db/zelda.js",
+		"/Users/brlamore/Sites/nesoi/db/zelda.json",
+		"/Users/brlamore/Downloads/HTML-and-CSS-Workshop-master 5/script.js",
+		"/Users/brlamore/Downloads/HTML-and-CSS-Workshop-master 5/final-theme.css",
+		"/Users/brlamore/Downloads/HTML-and-CSS-Workshop-master 5/final.html",
+		"/Users/brlamore/Downloads/HTML-and-CSS-Workshop-master 5/index.html",
+		"/Users/brlamore/Downloads/HTML-and-CSS-Workshop-master 5/theme.css",
+		"/Users/brlamore/Downloads/puppies.html",
+		"/Users/brlamore/Downloads/style.css",
+		"/Users/brlamore/Sites/Phoenix/Lesson Notes/15.3/jQuery/Review/index.js",
+		"/Users/brlamore/Downloads/test.js",
+		"/Users/brlamore/src/Student-Resources/JavaScript/10 DOM and Document Methods/README.md",
+		"/Users/brlamore/Sites/Phoenix/Projects/JavaScript DOM/README.md",
+		"/Users/brlamore/Downloads/htmlMaker.html",
+		"/Users/brlamore/src/Part-time-Frontend/Syllabus.md",
+		"/Users/brlamore/Downloads/bootstrap-3.3.4-dist 2/css/bootstrap.css",
+		"/Users/brlamore/Downloads/pupplies.html",
+		"/Users/brlamore/src/Student-Resources/JavaScript/13 Scope/README.md",
+		"/Users/brlamore/src/Student-Resources/JavaScript/12 Loops/README.md",
+		"/Users/brlamore/src/Student-Resources/JavaScript/11 Arrays/README.md",
+		"/Users/brlamore/src/Phoenix/Projects/JavaScript DOM/README.md",
+		"/Users/brlamore/src/Student-Resources/jQuery/02 jQuery Events/README.md",
+		"/Users/brlamore/src/Student-Resources/jQuery/05 AJAX/README.md",
+		"/Users/brlamore/Sites/Phoenix/Projects/HTML My Bio/README.md",
+		"/Users/brlamore/src/Phoenix/Projects/JavaScript Objects/README.md",
+		"/Users/brlamore/Sites/Phoenix/Projects/JavaScript Objects/README.md",
+		"/Users/brlamore/src/Student-Resources/JavaScript/07 Objects II/README.md",
+		"/Users/brlamore/src/Student-Resources/JavaScript/05 Objects I/README.md",
+		"/Users/brlamore/Sites/Phoenix/Projects/CSS Media Objects/README.md",
+		"/Users/brlamore/src/Student-Resources/CSS/08 Flow and Floats/README.md",
+		"/Users/brlamore/src/Student-Resources/CSS/08 Flow and Floats/screenshot.png",
+		"/Users/brlamore/src/Phoenix/Projects/CSS Media Objects/README.md",
+		"/Users/brlamore/Sites/Phoenix/Projects/Jekyll Blog/README.md",
+		"/Users/brlamore/src/Phoenix/Projects/JavaScript Functions/README.md",
+		"/Users/brlamore/Sites/Phoenix/Projects/JavaScript Basics/README.md",
+		"/Users/brlamore/Sites/Phoenix/Projects/JavaScript Functions/README.md",
+		"/Users/brlamore/src/Phoenix/Projects/JavaScript Basics/README.md",
+		"/Users/brlamore/Sites/Phoenix/Projects/HTTP Basics/README.md",
+		"/Users/brlamore/Sites/react-tutorial-master/public/css/base.css",
+		"/Users/brlamore/Sites/nesoi/src/db.js",
+		"/Users/brlamore/Sites/react-tutorial-master/public/scripts/example.js",
+		"/Users/brlamore/Downloads/react-tutorial-master/public/index.html",
+		"/Users/brlamore/Sites/nesoi/package.json",
+		"/Users/brlamore/Sites/nesoi/gulpfile.js",
+		"/Users/brlamore/Sites/backbone/db.json",
+		"/Users/brlamore/Sites/backbone/scripts/index.js",
+		"/Users/brlamore/src/Program-Challenge/db.json",
+		"/Users/brlamore/Sites/backbone/package.json",
+		"/Users/brlamore/Sites/nesoi/styles.css",
+		"/Users/brlamore/Sites/nesoi/src/person.js",
+		"/Users/brlamore/Sites/nesoi/index.html",
+		"/Users/brlamore/Sites/nesoi/scripts/main.js",
+		"/Users/brlamore/src/Phoenix/Lesson Notes/15.3/Gulp/gulppractice/gulpfile.js",
+		"/Users/brlamore/Sites/buildprocess/gulpfile.js",
+		"/Users/brlamore/src/Phoenix/Projects/HTML Forms/index.html",
+		"/Users/brlamore/src/Phoenix-Admin/Milestone-Project-Solutions/HTML Forms/index.html",
+		"/Users/brlamore/src/Phoenix/Projects/HTML Forms/js/main.js",
+		"/Users/brlamore/src/Phoenix-Admin/Milestone-Project-Solutions/HTML Forms/js/main.js",
+		"/Users/brlamore/Sites/Phoenix/Projects/HTML Forms/js/main.js",
+		"/Users/brlamore/Sites/Phoenix/Projects/HTML Forms/index.html",
+		"/Users/brlamore/src/Phoenix/Projects/HTML Forms/css/styles.css",
+		"/Users/brlamore/Sites/Phoenix/Projects/HTML Forms/css/styles.css",
+		"/Users/brlamore/src/Phoenix/Projects/HTML Forms/package.json",
+		"/Users/brlamore/Sites/Phoenix/Projects/HTML Forms/package.json",
+		"/Users/brlamore/src/Phoenix-Admin/Milestone-Project-Solutions/HTML Forms/forms.js",
+		"/Users/brlamore/src/Phoenix/Projects/HTML Forms/forms.js",
+		"/Users/brlamore/src/Phoenix/Projects/HTML Forms/README.md",
+		"/Users/brlamore/Sites/Phoenix/Lesson Notes/15.3/HTML/Forms/index.html",
+		"/Users/brlamore/Sites/trash/index.html",
+		"/Users/brlamore/Sites/trash/main.js",
+		"/Users/brlamore/src/Phoenix/Lesson Notes/15.3/JavaScript/iQuery/main.js",
+		"/Users/brlamore/src/Phoenix/Lesson Notes/15.3/JavaScript/iQuery/index.html",
+		"/Users/brlamore/Sites/Phoenix/Lesson Notes/15.3/JavaScript/iQuery/index.html",
+		"/Users/brlamore/Sites/Phoenix/Lesson Notes/15.3/JavaScript/iQuery/main.js",
+		"/Users/brlamore/Sites/nesoi/main.js",
+		"/Users/brlamore/Downloads/HTML-and-CSS-Workshop-master 4/index.html",
+		"/Users/brlamore/Downloads/HTML-and-CSS-Workshop-master 4/theme.css",
+		"/Users/brlamore/Downloads/HTML-and-CSS-Workshop-master 4/final.html",
+		"/Users/brlamore/Downloads/HTML-and-CSS-Workshop-master 4/script.js",
+		"/Users/brlamore/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/brlamore/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/brlamore/src/Phoenix-Admin/Milestone-Project-Solutions/HTML Forms/css/styles.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/brlamore/Sites/brigsblog",
+			"/Users/brlamore/src/Student-Resources",
+			"/Users/brlamore/Sites/dolphin",
+			"/Users/brlamore/Sites/website",
+			"/Users/brlamore/src/Student-Resources",
+			"/Users/brlamore/Sites/website",
+			"/Users/brlamore/Sites/website,-/Users/brlamore/Sites/website/site",
+			"/Users/brlamore/Sites/website,-/Users/brlamore/Sites/website/_sites",
+			"/Users/brlamore/Sites/website",
+			"/Users/brlamore/Sites/website/css",
+			"/Users/brlamore/Sites/website"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"view",
+			"red",
+			"Your awesome",
+			"Your awsome",
+			"bounds",
+			"getBounds",
+			"changeBoun",
+			"changeBounds",
+			"convertOrigin",
+			"bounds",
+			"isTerrainTraversable",
+			"mini",
+			"coordToIndex",
+			"coordTo",
+			"updateTer",
+			"map.",
+			"updateMap",
+			"updateTer",
+			"drawDe",
+			"$",
+			"cellBou",
+			"cellBounds",
+			"drawMap",
+			"cellBounds",
+			"createPlay",
+			"drawMap",
+			"world",
+			"getBoun",
+			"getBound",
+			"getBoun",
+			"defaultBou",
+			"defaultB",
+			"default",
+			"bounds",
+			"inBou",
+			"inBoun",
+			"getCell",
+			"getCel",
+			"getCell",
+			"cells",
+			"getCell",
+			"getCell(",
+			"getCell",
+			"getCel",
+			"config",
+			"Direction",
+			"Person",
+			"7",
+			"--;",
+			"drawPerson",
+			"drawPers",
+			"DrawPer",
+			"Direction.",
+			"Person",
+			"drawP",
+			"drawPerson",
+			"drawP",
+			"kian",
+			"zelda",
+			"White",
+			"Green",
+			"draw",
+			"mongo",
+			"Traver",
+			"traver",
+			"Red",
+			"latter",
+			"Red",
+			"getDef",
+			"isTrav",
+			"traversable =",
+			"Green",
+			"Red",
+			"drawMiniMap",
+			"miniMap",
+			"default",
+			"conso",
+			"cons",
+			"console",
+			"changeBounds",
+			"inBoundary",
+			"getDefaultColor",
+			"convertO",
+			"mini",
+			"miniMapBounds",
+			"drawMin",
+			"mini",
+			"miniMap",
+			"get",
+			"drawMin",
+			"cells = ",
+			"updateMap",
+			"data.terrain",
+			"var c",
+			"drawMin",
+			"http",
+			"getUrl",
+			"url",
+			"sand",
+			"cons",
+			"conso",
+			"cached",
+			"inWorld",
+			"getPrecachedCells",
+			"source",
+			"buffer",
+			"getBounds",
+			"bounds =",
+			"indexToCoord",
+			"concat",
+			"console.log",
+			"drawPerson",
+			"drawTerrain",
+			"console",
+			"Point",
+			"target",
+			"getBounds",
+			"drawMap",
+			"true",
+			"grass",
+			"width",
+			"console",
+			"0",
+			"10",
+			"0",
+			"10",
+			"false",
+			"resetGame"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"dirt",
+			"h3. ",
+			"h3.",
+			"^h3.",
+			"h3.",
+			"",
+			"##",
+			"",
+			"\"",
+			",",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 84.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"syll",
+				"Part-time-Frontend/Syllabus.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true
+}
