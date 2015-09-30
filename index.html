@@ -2,73 +2,145 @@
 layout: default
 ---
 
-<div class="panel hero">
+<div class="panel hero" id="home">
   <div>
 
     <div class="callout">
       <section>
-        Callout main
+        <button class="reg">Register Now</button>
       </section>
-      <section>
-        countdown
-      </section>        
+      <ul class="countdown">
+        <li class="part d"><span class="t">23</span><span class="l">Days</span></li>
+        <li class="space">&bull;</li>
+        <li class="part h"><span class="t">17</span><span class="l">hours</span></li>
+        <li class="space">&bull;</li>
+        <li class="part m"><span class="t">51</span><span class="l">minutes</span></li>
+        <li class="space">&bull;</li>
+        <li class="part s"><span class="t">46</span><span class="l">seconds</span></li>
+      </ul>        
     </div>
 
     <nav class="nav">
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-    </nav>
-
-    
+      <a href="#home" class="active">Home</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="#location">Location</a>      
+      <a href="#info">Info</a>
+    </nav>    
 
     <main>
       <h1>Turkey Trot</h1>
-      <h2>Join us in a great day and run with the best</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum magnam facere laborum, illo eum! Voluptatem, itaque, ex. Voluptatem illum nihil, dolor labore officiis at libero vitae? Nobis sunt dicta veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum magnam facere laborum, illo eum! Voluptatem, itaque, ex. Voluptatem illum nihil, dolor labore officiis at libero vitae? Nobis sunt dicta veniam.</p>
-      <h2>14 Nov 2015 - 8AM to 9AM - Queen Creek</h2>
+      <h3>Help raise donations to support the Child Crisis Center.</h3>
+      <p>Ezra Lamoreaux, of Boy Scout troop 388, will be holding a family fun run on Saturday, November 14th, 2015 in order to collect baby care items for the Child Crisis Center. Please come and join Ezra for a one mile jog through Sossaman Estates. If running isn't your thing just come to drop off donations and enjoy a pancake breakfast. Any and all donations are greatly appreciated.</p>
+      <h3>14 Nov 2015 - 8AM - Queen Creek</h3>
     </main>
 
-    <div class="arrow">
-      arrow
+    <div class="arrow rotate">
+      ➔
     </div>
 
   </div>
 </div>
 
-<div class=" map">
+
+<div class="panel sponsor-content" id="sponsors">
   <div>
-    Map
+
+    <section>
+    
+      <h2>Sponsors</h2>
+      <p>We are truly grateful for those who have given generous support. This event would not be possible without great sponsors and friends. Thank you to all who help make this happen.</p>
+
+    </section>
+
+    <section class="sponsor-tiles" >
+      
+
+      <div class="sponsor-tile">
+        <div class="frame">
+          <span class="helper"></span>
+          <img src="images/childCrisisCenterLogo.jpg" >
+        </div>
+        <div class="content">
+          <div class="left">
+            <p>Child Crisis Center</p>
+          </div>
+          <div class="right">
+            <a href="http://www.childcrisis.org/" target="_blank"><i class="fa fa-external-link"></i></a>         
+          </div>
+        </div>
+      </div>
+
+      <div class="sponsor-tile">
+        <div class="frame">
+          <span class="helper"></span>
+          <img src="images/bsaLogo.jpg" >
+        </div>
+        <div class="content">
+          <div class="left">
+            <p>BSA</p>
+          </div>
+            <div class="right">
+              <a href="http://www.grandcanyonbsa.org/"><i class="fa fa-external-link"></i></a>         
+            </div>
+        </div>
+      </div>
+
+      <div class="sponsor-tile">
+        <div class="frame">
+          <span class="helper"></span>
+          <img  src="images/homeDepotLogo.png">
+        </div>
+        <div class="content">
+          <div class="left">
+            <p>The Home Depot</p>
+          </div>
+          <div class="right">
+            <a href="http://www.childcrisis.org/"><i class="fa fa-external-link"></i></a>         
+          </div>
+        </div>
+      </div>
+
+    </section>
+
   </div>
 </div>
 
-<div class="panel primary-content">
+
+<div class="map" id="location">
+  <div>
+    
+  </div>
+</div>
+
+<div class="panel primary-content" id="info">
   <div class="breakouts">
 
     <!-- <section > -->
       
 
       <div class="breakout content-box">
-        <h3>Address</h3>
+        <h3><i class="fa fa-map-marker where"></i> Where</h3>
         <address>
-          Presidents Park<br>
-          100 S Druids Glen Rd.<br>
+          Park near:<br>
+          18698 E Druids Glen Rd.<br>
           Queen Creek, AZ 85142
         </address>
         
       </div>
 
       <div class="breakout content-box">
-        <h3>Agenda</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, architecto animi mollitia aliquam, dignissimos dolor deserunt nostrum reprehenderit reiciendis officia pariatur nobis est id harum asperiores quod accusantium, eveniet. Quod.</p>
+        <h3><i class="fa fa-clock-o when"></i> When</h3>
+        <time datetime="2015-11-14 9:00">
+          Sat. 14 Nov 2015
+        </time>
+        <p>Race starts at 8am followed by a pancake breakfast.<p>
       </div>
 
 
       <div class="breakout content-box">
-        <h3>Organizer</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, architecto animi mollitia aliquam, dignissimos dolor deserunt nostrum reprehenderit reiciendis officia pariatur nobis est id harum asperiores quod accusantium, eveniet. Quod.</p>
+        <h3><i class="fa fa-heart donate"></i> Donate</h3>
+        <p>Baby items are needed</p>
+        <small>Bottles, sippy cups, pacifiers, baby food (jars, fruits and veggies only), pajamas, zippered mattress covers, crib and toddler bed sheet sets, diapers, wipes, blankets.</small>
       </div>
 
       
@@ -81,65 +153,3 @@ layout: default
   </div>
 </div>
 
-<div class="panel sponsor-content">
-  <div>
-
-    <section>
-    
-      <h2>Sponsors</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quaerat adipisci et, doloribus eos omnis natus dignissimos accusantium sapiente impedit iste facere enim. Culpa veritatis facere blanditiis rem odit voluptate.</p>
-
-    </section>
-
-    <section class="sponsor-tiles">
-      
-
-      <div class="sponsor-tile">
-        <div class="frame">
-          <span class="helper"></span>
-          <img src="images/abstract-q-g-100-100-6.jpg" height="150">
-        </div>
-        <div class="content">
-          <div class="left">
-            <p>Name</p>
-          </div>
-          <div class="right">
-            <p>Link</p>          
-          </div>
-        </div>
-      </div>
-
-      <div class="sponsor-tile">
-        <div class="frame">
-          <span class="helper"></span>
-          <img src="images/abstract-q-g-100-100-5.jpg" height="70">
-        </div>
-        <div class="content">
-          <div class="left">
-            <h3>Name</h3>
-          </div>
-            <div class="right">
-              <p>Link</p>   
-            </div>
-        </div>
-      </div>
-
-      <div class="sponsor-tile">
-        <div class="frame">
-          <span class="helper"></span>
-          <img class="round" src="images/abstract-q-g-100-100-5.jpg" height="90">
-        </div>
-        <div class="content">
-          <div class="left">
-            <h3>Name</h3>
-          </div>
-          <div class="right">
-            <p>Link</p>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-  </div>
-</div>

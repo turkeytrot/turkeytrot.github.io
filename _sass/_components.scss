@@ -4,40 +4,131 @@
 *****************************************/
 
 .nav {
-    spadding: 30px 0px;
     height: 80px;
     line-height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
 }
 .nav a {
-    padding: 10px 30px;
+    padding: 10px 30px 10px 0px;
     height: 100%;
+    text-transform: uppercase;
+    color: $grey-color-light;
+}
+.nav a.active{
+    color: $grey-color-dark;
+}
+.nav a:hover{
+    text-decoration: none;
+    color: $grey-color-dark;
+
 }
 
 main h1 {
     margin-top: 0px;
     font-size: 74px;
     font-family: 'Rubik One', sans-serif;
+    color: $brand-color-2;
 }
+
 
 p {
     font-family: 'Raleway', sans-serif;
 }
 
 
+/**
+ * Countdown
+ */
+ .countdown {
+    margin: 0px;
+    padding: 0px;
+    display: -webkit-box; 
+    display: flex;
+ }
+.countdown li {   
+
+    display: inline;
+}
+
+.countdown .part{
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.countdown .part > span {
+    display: block;
+    font-size: 0.65em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.countdown .part .t {
+    color: $grey-color-dark;
+    font-size: 2em;
+}
+.countdown .part .l {
+    font-weight: bold;
+    color: $grey-color-light;
+}
+.countdown .space {
+    color: $grey-color-light;
+    font-size: 2em;
+}
+
+
+/**
+ * Register Button
+ */
+.reg {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    background-color: $brand-color;
+    color: white;
+    text-transform: uppercase;
+}
+.reg::after {
+    padding-left: 1em;
+    content: "➔";
+}
+.reg:focus {outline:0;}
 
 /**
  * Content Box
  */
 
 .content-box {
-    color: white;
+    background-color: #fff;
+    color: $text-color;
     padding: 20px 40px ;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px -5px #000;
 }
 
 .content-box h3 {
     margin-top: 0px;
     font-size: 2em;
 }
+
+.content-box i {
+    font-size: .75em;
+}
+.content-box .where {
+    color: #FDB90A;
+}
+
+.content-box .when {
+    color: #148D29;
+}
+
+.content-box .donate {
+    color: #CE5B09;
+}
+
+
+/**
+ * Arrow
+ */
 
 
 /**
@@ -51,22 +142,29 @@ p {
     height: 290px;
     vertical-align: top;
     color: #3C6807;
-    background-color: rgba(0,0,0,.25);
+    background-color: $background-color;
     padding-top: 55px;
     position: relative;
     margin: 0 10px;
+    -webkit-transform: translate(0px,25px);
     transform: translateY(25px);
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px -5px #000;
 
 }
 
 .sponsor-tile .content {
-    background-color: #E3E3E3;
+    
+    color: $text-color;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     height: 60px;
-
+    background-color: $grey-color-super-light; 
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;
 
 }
 
@@ -79,19 +177,29 @@ p {
     font-weight: 100;
     vertical-align: middle;
 
+
 }
 .sponsor-tile .content .left {
     left: 0;    
-    background-color: rgba(125, 0, 0, 0.25);   
+    sbackground-color: $grey-color-light;   
     width: 75%;
     text-align: left;
     padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9em;
 }
 
 .sponsor-tile .content .right {
+    line-height: 60px;
+    font-size:1.5em;
     right: 0;
-    background-color: rgba(0, 125, 0, 0.25);
+    sbackground-color: rgba(0, 125, 0, 0.25);
     width: 25%;
+}
+
+.sponsor-tile .content a, .sponsor-tile .content a:visited, .sponsor-tile .content a:hover {
+    color: $text-color;
 }
 
 
@@ -113,10 +221,12 @@ p {
     vertical-align: middle;
 }
 
+
+
 .frame img {
     vertical-align: middle;
     max-height: 100px;
-    max-width: 100px;
+    max-width: 200px;
 }
 
 /*Helper for round images*/
@@ -127,4 +237,23 @@ img.round {
 
 .social {
     width: 50px;
+}
+
+.rotate {
+
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+
+    /* IE */
+    -ms-transform: rotate(90deg);
+
+    /* Opera */
+    -o-transform: rotate(90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
 }
